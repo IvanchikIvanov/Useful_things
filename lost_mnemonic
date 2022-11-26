@@ -1,0 +1,9 @@
+the mnemonic phrase is no longer available. But if you have access to the server
+you can get your wallet in two ways (the mnemonic phrase can no longer be returned)
+1) restore the private key from the wallet
+sourced keys export you_name_wallet --unarmored-hex --unsafe
+
+And stick it in the kepler (there will be access to the wallet through the kepler)
+2) save the file itself which is located $HOME/.source/
+and when moving to another server
+to insert it on the new server in the same directory. will have access to the wallet 
